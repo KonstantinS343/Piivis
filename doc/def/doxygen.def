@@ -1,0 +1,1292 @@
+AutoGen Definitions dummy;
+class = {
+  cp-id     = 'classGameField_1_1Cell';
+  cp-name   = 'GameField::Cell';
+  cp-section = {
+    sec-kind = 'public-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classGameField_1_1Cell_1a38262eeddbd7e5dea3107ff7d73049ae';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'number';
+      sec-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/game.h';
+      sec-mem-desc-line = '28';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+значение, которое содержит одна клетка
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classGameField_1_1Cell_1a64aa4df075ecdfc6068064b80e2ca47a';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+std::pair< int, int >
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'points';
+      sec-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/game.h';
+      sec-mem-desc-line = '31';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+координаты числа на игровой сетке
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/konstantin/CLionProjects/pyatnashki/game.h';
+  cp-fileline  = '25';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+Вложенный класс
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+создание класса клетки, который будет хранить значение, которое хранится в клетке, а также координаты клетки 
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'GameField::Cell';
+        node-link = {
+          node-link-id = 'classGameField_1_1Cell';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'classGameField';
+  cp-name   = 'GameField';
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'group__play__game_1gacd7b99e013b64627b7313bc7460a71fb';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+std::vector< Cell >
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'operator[]';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'index';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/game.h';
+      sec-mem-desc-line = '57';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+оператора индексирования,для просмотра элемента
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param index принимает индекс вектора, который нужно вернуть
+\return вектор строк, который состоит из клеток поля
+\author Konstantsin
+\see std::vector<std::vector<Cell>> field
+\see play_game.cpp 
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'group__game__field_1ga3ffe9b40c10712116bc2d1780414b3f5';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'CreateField';
+      sec-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/game.h';
+      sec-mem-desc-line = '68';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+метод создания игрового поля
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ \author Konstantsin
+ \see std::pair<int,int> points_of_empty
+ \see std::vector<std::vector<int>> pattern_of_winners_set
+ \see std::vector<std::vector<Cell>> field
+ \see int size_of_field
+ \see bool CheckCellOnRepetition(int number)
+ \see int CheckInputNumber()
+ \see game_field.cpp 
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'group__play__game_1gaaca756a4f60dfd298f96ff272d3f3412';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'PlayProcess';
+      sec-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/game.h';
+      sec-mem-desc-line = '83';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+процесс игры
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ \author Konstantsin
+ \see void CreateField()
+ \see void ShowField()
+ \see void DeleteField()
+ \see std::pair<int,int> points_of_empty
+ \see std::vector<std::vector<Cell>> field
+ \see int size_of_field
+ \see int number
+ \see std::pair<int,int> points
+ \see char CheckInputChar()
+ \see bool CheckWinnerSet()
+ \see play_game.cpp 
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'group__game__field_1gac54d1b006780e930dfdb253ae1d93cac';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'ShowField';
+      sec-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/game.h';
+      sec-mem-desc-line = '91';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+метод вывода поля на экран
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ \author Konstantsin
+ \see int size_of_field;
+ \see std::vector<std::vector<Cell>> field
+ \see std::vector<Cell> operator [](int index)
+ \see game_field.cpp 
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'group__game__field_1ga3e80cc7366363f6f834fe6488f73d2c2';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+bool
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'CheckCellOnRepetition';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-declname = 'number';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/game.h';
+      sec-mem-desc-line = '100';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+проверка на расстановку клеток без повторения
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@param number принимает рандомно сгенерированное число, которое нужно поместить в игровую клетку
+ \return true, если такого числа на поле нет, и false, если такое число уже имеется
+ \author Konstantsin
+ \see int size_of_field;
+ \see std::vector<std::vector<Cell>> field
+ \see game_field.cpp 
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'group__game__field_1gad1b38e5e172e3090e9575fd341f35116';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'CheckInputNumber';
+      sec-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/game.h';
+      sec-mem-desc-line = '107';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+проверка на ввод для чисел
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ \return возвращает число, которое необходимо проверить
+ \author Konstantsin
+ \throw exception при неправильном вводе
+ \see game_field.cpp 
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'group__play__game_1ga71741a9728a5638b0c2851fc1abbf878';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+char
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'CheckInputChar';
+      sec-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/game.h';
+      sec-mem-desc-line = '114';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+проверка на ввод для символов
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ \return возвращает символ, которое необходимо проверить
+ \author Konstantsin
+ \throw exception при неправильном вводе
+ \see play_game.cpp 
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'group__game__field_1gac335c109b1bcde5e2b167ad212a6a743';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'DeleteField';
+      sec-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/game.h';
+      sec-mem-desc-line = '122';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+очищает поле
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ \author Konstantsin
+ \see std::vector<std::vector<Cell>> field
+ \see int counter_of_move
+ \see std::vector<std::vector<int>> pattern_of_winners_set
+ \see game_field.cpp 
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'group__check__winner_1ga09a062c0fa754082e5e2e0f4caa75070';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+bool
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'CheckWinnerSet';
+      sec-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/game.h';
+      sec-mem-desc-line = '131';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+проверка на победу
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ \return true, если клетки расставлены правильно, и false, если это не так
+ \author Konstantsin
+ \see  int size_of_field
+ \see std::vector<std::vector<int>> pattern_of_winners_se
+ \see std::vector<std::vector<Cell>> field
+ \see  check_winner.cpp 
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'group__game__field_1gacb836919adcaf52e28677fa722faad80';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+bool
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'CheckUnpossibleWin';
+      sec-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/game.h';
+      sec-mem-desc-line = '140';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+проверка на возможность выиграть при поле со стороной 2.
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+ \return true, если выиграть нельзя, и false, если можно
+ \author Konstantsin
+ \see  int size_of_field
+ \see std::vector<std::vector<Cell>> field
+ \see  game_field.cpp
+ \see play_game.cpp 
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'private-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classGameField_1ad19679c305250b905c4acbfd3bff9ccc';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'size_of_field';
+      sec-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/game.h';
+      sec-mem-desc-line = '35';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+размер поля
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classGameField_1a20277d930918f14bc2ddab0955a83d3d';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+std::vector< std::vector< Cell > >
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'field';
+      sec-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/game.h';
+      sec-mem-desc-line = '38';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+игровое поле
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classGameField_1a84cd27cc61b6cdac29fb115fe226b417';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+std::vector< std::vector< int > >
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'pattern_of_winners_set';
+      sec-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/game.h';
+      sec-mem-desc-line = '41';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+шаблон выиграшной комбинации
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classGameField_1a03221dc0adf41e1f9e7f1c64d7c8acd1';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+std::pair< int, int >
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'points_of_empty';
+      sec-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/game.h';
+      sec-mem-desc-line = '44';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+хранит координаты пустой клетки
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classGameField_1a3334cd234a19d83a75c1c976e2748b1c';
+      sec-mem-virt = normal;
+      sec-mem-prot = private;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'counter_of_move';
+      sec-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/game.h';
+      sec-mem-desc-line = '47';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+счетчик количества ходов
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/konstantin/CLionProjects/pyatnashki/game.h';
+  cp-fileline  = '19';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+Реализация класса
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+Данный класс реализует игру птянашки, а также содержит вложенный класс 
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 1;
+        node-label = 'GameField';
+        node-link = {
+          node-link-id = 'classGameField';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+file = {
+  file-id   = 'check__winner_8cpp';
+  file-name = 'check_winner.cpp';
+  file-full-name  = '/home/konstantin/CLionProjects/pyatnashki/check_winner.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+содержит метод проверки выиграша
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'CMakeCache_8txt';
+  file-name = 'CMakeCache.txt';
+  file-full-name  = '/home/konstantin/CLionProjects/pyatnashki/cmake-build-debug/CMakeCache.txt';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'CMakeCCompilerId_8c';
+  file-name = 'CMakeCCompilerId.c';
+    define = {
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'CMakeCCompilerId_8c_1ae5510d82e4946f1656f4969911c54736';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = '__has_include';
+      define-mem-param  = {
+        define-mem-def-name = 'x';
+      }; /*        define-mem-def--param */
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+0
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c';
+      define-mem-desc-line = '17';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'CMakeCCompilerId_8c_1a81dee0709ded976b2e0319239f72d174';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'COMPILER_ID';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+""
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c';
+      define-mem-desc-line = '422';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'CMakeCCompilerId_8c_1a2ae9b72bb13abaabfcf2ee0ba7d3fa1d';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'STRINGIFY_HELPER';
+      define-mem-param  = {
+        define-mem-def-name = 'X';
+      }; /*        define-mem-def--param */
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+#X
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c';
+      define-mem-desc-line = '442';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'CMakeCCompilerId_8c_1a43e1cad902b6477bec893cb6430bd6c8';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'STRINGIFY';
+      define-mem-param  = {
+        define-mem-def-name = 'X';
+      }; /*        define-mem-def--param */
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+STRINGIFY_HELPER(X)
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c';
+      define-mem-desc-line = '443';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'CMakeCCompilerId_8c_1adbc5372f40838899018fadbc89bd588b';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'PLATFORM_ID';
+      define-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c';
+      define-mem-desc-line = '550';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'CMakeCCompilerId_8c_1aba35d0d200deaeb06aee95ca297acb28';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'ARCHITECTURE_ID';
+      define-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c';
+      define-mem-desc-line = '678';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'CMakeCCompilerId_8c_1ad1280362da42492bbc11aa78cbf776ad';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'DEC';
+      define-mem-param  = {
+        define-mem-def-name = 'n';
+      }; /*        define-mem-def--param */
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+  ('0' + (((n) / 10000000)%10)), \
+  ('0' + (((n) / 1000000)%10)),  \
+  ('0' + (((n) / 100000)%10)),   \
+  ('0' + (((n) / 10000)%10)),    \
+  ('0' + (((n) / 1000)%10)),     \
+  ('0' + (((n) / 100)%10)),      \
+  ('0' + (((n) / 10)%10)),       \
+  ('0' +  ((n) % 10))
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c';
+      define-mem-desc-line = '682';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'CMakeCCompilerId_8c_1a46d5d95daa1bef867bd0179594310ed5';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'HEX';
+      define-mem-param  = {
+        define-mem-def-name = 'n';
+      }; /*        define-mem-def--param */
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+  ('0' + ((n)>>28 & 0xF)), \
+  ('0' + ((n)>>24 & 0xF)), \
+  ('0' + ((n)>>20 & 0xF)), \
+  ('0' + ((n)>>16 & 0xF)), \
+  ('0' + ((n)>>12 & 0xF)), \
+  ('0' + ((n)>>8  & 0xF)), \
+  ('0' + ((n)>>4  & 0xF)), \
+  ('0' + ((n)     & 0xF))
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c';
+      define-mem-desc-line = '693';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'CMakeCCompilerId_8c_1adaee3ee7c5a7a22451ea25e762e1d7d5';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'C_VERSION';
+      define-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c';
+      define-mem-desc-line = '767';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    };
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'CMakeCCompilerId_8c_1a0ddf1224851353fc92bfbff6f499fa97';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'main';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'argc';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+char *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'argv';
+        func-mem-param-array = '[]';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c';
+      func-mem-desc-line = '801';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+    var = {
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'CMakeCCompilerId_8c_1a4b0efeb7a5d59313986b3a0390f050f6';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+char const  *
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'info_compiler';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "INFO" ":" "compiler[" COMPILER_ID "]"
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c';
+      var-mem-desc-line = '429';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'CMakeCCompilerId_8c_1a2321403dee54ee23f0c2fa849c60f7d4';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+char const  *
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'info_platform';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "INFO" ":" "platform[" PLATFORM_ID "]"
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c';
+      var-mem-desc-line = '758';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'CMakeCCompilerId_8c_1a59647e99d304ed33b15cb284c27ed391';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+char const  *
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'info_arch';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "INFO" ":" "arch[" ARCHITECTURE_ID "]"
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c';
+      var-mem-desc-line = '759';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'CMakeCCompilerId_8c_1a4607cccf070750927b458473ca82c090';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const char *
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'info_language_standard_default';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+=
+  "INFO" ":" "standard_default[" C_VERSION "]"
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c';
+      var-mem-desc-line = '780';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'CMakeCCompilerId_8c_1a0f46a8a39e09d9b803c4766904fd7e99';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const char *
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'info_language_extensions_default';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "INFO" ":" "extensions_default["
+
+
+
+
+
+  "OFF"
+
+"]"
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c';
+      var-mem-desc-line = '783';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    };
+  file-full-name  = '/home/konstantin/CLionProjects/pyatnashki/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'CMakeCXXCompilerId_8cpp';
+  file-name = 'CMakeCXXCompilerId.cpp';
+    define = {
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'CMakeCXXCompilerId_8cpp_1ae5510d82e4946f1656f4969911c54736';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = '__has_include';
+      define-mem-param  = {
+        define-mem-def-name = 'x';
+      }; /*        define-mem-def--param */
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+0
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp';
+      define-mem-desc-line = '11';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'CMakeCXXCompilerId_8cpp_1a81dee0709ded976b2e0319239f72d174';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'COMPILER_ID';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+""
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp';
+      define-mem-desc-line = '407';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'CMakeCXXCompilerId_8cpp_1a2ae9b72bb13abaabfcf2ee0ba7d3fa1d';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'STRINGIFY_HELPER';
+      define-mem-param  = {
+        define-mem-def-name = 'X';
+      }; /*        define-mem-def--param */
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+#X
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp';
+      define-mem-desc-line = '427';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'CMakeCXXCompilerId_8cpp_1a43e1cad902b6477bec893cb6430bd6c8';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'STRINGIFY';
+      define-mem-param  = {
+        define-mem-def-name = 'X';
+      }; /*        define-mem-def--param */
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+STRINGIFY_HELPER(X)
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp';
+      define-mem-desc-line = '428';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'CMakeCXXCompilerId_8cpp_1adbc5372f40838899018fadbc89bd588b';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'PLATFORM_ID';
+      define-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp';
+      define-mem-desc-line = '535';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'CMakeCXXCompilerId_8cpp_1aba35d0d200deaeb06aee95ca297acb28';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'ARCHITECTURE_ID';
+      define-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp';
+      define-mem-desc-line = '663';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'CMakeCXXCompilerId_8cpp_1ad1280362da42492bbc11aa78cbf776ad';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'DEC';
+      define-mem-param  = {
+        define-mem-def-name = 'n';
+      }; /*        define-mem-def--param */
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+  ('0' + (((n) / 10000000)%10)), \
+  ('0' + (((n) / 1000000)%10)),  \
+  ('0' + (((n) / 100000)%10)),   \
+  ('0' + (((n) / 10000)%10)),    \
+  ('0' + (((n) / 1000)%10)),     \
+  ('0' + (((n) / 100)%10)),      \
+  ('0' + (((n) / 10)%10)),       \
+  ('0' +  ((n) % 10))
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp';
+      define-mem-desc-line = '667';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'CMakeCXXCompilerId_8cpp_1a46d5d95daa1bef867bd0179594310ed5';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'HEX';
+      define-mem-param  = {
+        define-mem-def-name = 'n';
+      }; /*        define-mem-def--param */
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+  ('0' + ((n)>>28 & 0xF)), \
+  ('0' + ((n)>>24 & 0xF)), \
+  ('0' + ((n)>>20 & 0xF)), \
+  ('0' + ((n)>>16 & 0xF)), \
+  ('0' + ((n)>>12 & 0xF)), \
+  ('0' + ((n)>>8  & 0xF)), \
+  ('0' + ((n)>>4  & 0xF)), \
+  ('0' + ((n)     & 0xF))
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp';
+      define-mem-desc-line = '678';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    define-member = {
+      define-mem-kind = 'define';
+      define-mem-id   = 'CMakeCXXCompilerId_8cpp_1a34cc889e576a1ae6c84ae9e0a851ba21';
+      define-mem-virt = normal;
+      define-mem-prot = public;
+      define-mem-name = 'CXX_STD';
+      define-mem-initializer = <<_EnD_oF_dEf_TeXt_
+__cplusplus
+_EnD_oF_dEf_TeXt_;
+      define-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp';
+      define-mem-desc-line = '761';
+      define-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      define-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* define-member */
+    };
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'CMakeCXXCompilerId_8cpp_1a0ddf1224851353fc92bfbff6f499fa97';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'main';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'argc';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+char *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'argv';
+        func-mem-param-array = '[]';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp';
+      func-mem-desc-line = '792';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+    var = {
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'CMakeCXXCompilerId_8cpp_1a4b0efeb7a5d59313986b3a0390f050f6';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+char const  *
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'info_compiler';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "INFO" ":" "compiler[" COMPILER_ID "]"
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp';
+      var-mem-desc-line = '414';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'CMakeCXXCompilerId_8cpp_1a2321403dee54ee23f0c2fa849c60f7d4';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+char const  *
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'info_platform';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "INFO" ":" "platform[" PLATFORM_ID "]"
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp';
+      var-mem-desc-line = '743';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'CMakeCXXCompilerId_8cpp_1a59647e99d304ed33b15cb284c27ed391';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+char const  *
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'info_arch';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "INFO" ":" "arch[" ARCHITECTURE_ID "]"
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp';
+      var-mem-desc-line = '744';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'CMakeCXXCompilerId_8cpp_1a4607cccf070750927b458473ca82c090';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const char *
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'info_language_standard_default';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "INFO" ":" "standard_default["
+
+
+
+
+
+
+
+
+
+
+
+  "98"
+
+"]"
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp';
+      var-mem-desc-line = '764';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'CMakeCXXCompilerId_8cpp_1a0f46a8a39e09d9b803c4766904fd7e99';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const char *
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'info_language_extensions_default';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "INFO" ":" "extensions_default["
+
+
+
+
+
+  "OFF"
+
+"]"
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp';
+      var-mem-desc-line = '780';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    };
+  file-full-name  = '/home/konstantin/CLionProjects/pyatnashki/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'clion-environment_8txt';
+  file-name = 'clion-environment.txt';
+  file-full-name  = '/home/konstantin/CLionProjects/pyatnashki/cmake-build-debug/CMakeFiles/clion-environment.txt';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'clion-log_8txt';
+  file-name = 'clion-log.txt';
+  file-full-name  = '/home/konstantin/CLionProjects/pyatnashki/cmake-build-debug/CMakeFiles/clion-log.txt';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'TargetDirectories_8txt';
+  file-name = 'TargetDirectories.txt';
+  file-full-name  = '/home/konstantin/CLionProjects/pyatnashki/cmake-build-debug/CMakeFiles/TargetDirectories.txt';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'CMakeLists_8txt';
+  file-name = 'CMakeLists.txt';
+  file-full-name  = '/home/konstantin/CLionProjects/pyatnashki/CMakeLists.txt';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'mainpage_8md';
+  file-name = 'mainpage.md';
+  file-full-name  = '/home/konstantin/CLionProjects/pyatnashki/doc-pages/mainpage.md';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'game_8h';
+  file-name = 'game.h';
+  file-full-name  = '/home/konstantin/CLionProjects/pyatnashki/game.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+заголовочный файл
+ содержит основной класс
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'game__field_8cpp';
+  file-name = 'game_field.cpp';
+  file-full-name  = '/home/konstantin/CLionProjects/pyatnashki/game_field.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+содержит методы игрвого поля
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'main_8cpp';
+  file-name = 'main.cpp';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'main';
+      func-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/main.cpp';
+      func-mem-desc-line = '8';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+содержит меню игры
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = '/home/konstantin/CLionProjects/pyatnashki/main.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+главный файл
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'play__game_8cpp';
+  file-name = 'play_game.cpp';
+  file-full-name  = '/home/konstantin/CLionProjects/pyatnashki/play_game.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+содержит сам игровой процесс
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */

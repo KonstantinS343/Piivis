@@ -1,0 +1,7 @@
+<map id="game.h" name="game.h">
+<area shape="rect" id="node1" title="заголовочный файл содержит основной класс" alt="" coords="255,5,325,32"/>
+<area shape="rect" id="node2" href="$check__winner_8cpp.html" title="содержит метод проверки выиграша" alt="" coords="5,80,143,107"/>
+<area shape="rect" id="node3" href="$game__field_8cpp.html" title="содержит методы игрвого поля" alt="" coords="167,80,288,107"/>
+<area shape="rect" id="node4" href="$main_8cpp.html" title="главный файл" alt="" coords="313,80,395,107"/>
+<area shape="rect" id="node5" href="$play__game_8cpp.html" title="содержит сам игровой процесс" alt="" coords="420,80,541,107"/>
+</map>
