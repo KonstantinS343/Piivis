@@ -13,7 +13,7 @@
  * @{
  */
 
-bool GameField::CheckWinnerSet() {
+bool Game::CheckWinnerSet() {
 
     for(int i = 0; i < size_of_field; i++){
         for(int j = 0; j < size_of_field; j++){

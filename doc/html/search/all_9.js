@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['number_37',['number',['../classGameField_1_1Cell.html#a38262eeddbd7e5dea3107ff7d73049ae',1,'GameField::Cell']]]
+  ['number_37',['number',['../classGame_1_1Cell.html#a93c0f0fa31e06fa934ff98c008cbd9de',1,'Game::Cell']]]
 ];

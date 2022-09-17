@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['pattern_5fof_5fwinners_5fset_86',['pattern_of_winners_set',['../classGameField.html#a84cd27cc61b6cdac29fb115fe226b417',1,'GameField']]],
-  ['points_87',['points',['../classGameField_1_1Cell.html#a64aa4df075ecdfc6068064b80e2ca47a',1,'GameField::Cell']]],
-  ['points_5fof_5fempty_88',['points_of_empty',['../classGameField.html#a03221dc0adf41e1f9e7f1c64d7c8acd1',1,'GameField']]]
+  ['pattern_5fof_5fwinners_5fset_86',['pattern_of_winners_set',['../classGame.html#ac0d1e595a5f0149dd5d29d13c5632c8c',1,'Game']]],
+  ['points_87',['points',['../classGame_1_1Cell.html#a333a5ff41053176687b49bb03835aaac',1,'Game::Cell']]],
+  ['points_5fof_5fempty_88',['points_of_empty',['../classGame.html#a3a708505d656aa4a04854639da67be76',1,'Game']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['size_5fof_5ffield_89',['size_of_field',['../classGameField.html#ad19679c305250b905c4acbfd3bff9ccc',1,'GameField']]]
+  ['size_5fof_5ffield_89',['size_of_field',['../classGame.html#a8c223f34a380328f0bc8185841f4ab0f',1,'Game']]]
 ];

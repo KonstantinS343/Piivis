@@ -7,7 +7,7 @@
 /// \brief содержит меню игры
 int main() {
 
-    GameField Game;
+    Game Game;
 
     std::cout<<"1. New game\n2. Exit\n";
     std::cout<<"Choose an option: ";

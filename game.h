@@ -13,11 +13,11 @@
 #include <ctime>
 #include <gtest/gtest.h>
 
-class GameField;
+class Game;
 ///\brief Реализация класса
 ///
 /// \details Данный класс реализует игру птянашки, а также содержит вложенный класс
-class GameField{
+class Game{
 private:
 
     ///\brief Вложенный класс

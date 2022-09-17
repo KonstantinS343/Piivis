@@ -1,4 +1,4 @@
 var annotated_dup =
 [
-    [ "GameField", "classGameField.html", "classGameField" ]
+    [ "Game", "classGame.html", "classGame" ]
 ];

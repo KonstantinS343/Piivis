@@ -10,7 +10,7 @@
  */
 
 
-void GameField::CreateField() {
+void Game::CreateField() {
 
     srand(time(NULL));
     std::cout<<"Please, enter the margin side size: ";
@@ -52,7 +52,7 @@ void GameField::CreateField() {
 
 }
 
-bool GameField::CheckCellOnRepetition(int number) {
+bool Game::CheckCellOnRepetition(int number) {
 
     for(int i = 0; i <= size_of_field; i++){
         for(int j = 0; j < size_of_field; j++){
@@ -68,7 +68,7 @@ bool GameField::CheckCellOnRepetition(int number) {
 
 }
 
-void GameField::ShowField() {
+void Game::ShowField() {
 
     for(int i = 0; i < size_of_field; i++){
         for(int k = 0; k < size_of_field; k++){
@@ -92,7 +92,7 @@ void GameField::ShowField() {
 }
 
 
-int GameField::CheckInputNumber() {
+int Game::CheckInputNumber() {
 
     int choice;
     std::cin>>choice;
@@ -116,7 +116,7 @@ int GameField::CheckInputNumber() {
 }
 
 
-void GameField::DeleteField() {
+void Game::DeleteField() {
 
     for(int i = 0; i < size_of_field; i++){
         field.at(i).clear();
@@ -130,7 +130,7 @@ void GameField::DeleteField() {
 }
 
 
-bool GameField::CheckUnpossibleWin() {
+bool Game::CheckUnpossibleWin() {
     if(size_of_field != 2){
         return false;
     }else{

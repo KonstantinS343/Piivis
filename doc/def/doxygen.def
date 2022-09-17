@@ -1,12 +1,12 @@
 AutoGen Definitions dummy;
 class = {
-  cp-id     = 'classGameField_1_1Cell';
-  cp-name   = 'GameField::Cell';
+  cp-id     = 'classGame_1_1Cell';
+  cp-name   = 'Game::Cell';
   cp-section = {
     sec-kind = 'public-attrib';
     sec-member = {
       sec-mem-kind = 'variable';
-      sec-mem-id   = 'classGameField_1_1Cell_1a38262eeddbd7e5dea3107ff7d73049ae';
+      sec-mem-id   = 'classGame_1_1Cell_1a93c0f0fa31e06fa934ff98c008cbd9de';
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -24,7 +24,7 @@ _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'variable';
-      sec-mem-id   = 'classGameField_1_1Cell_1a64aa4df075ecdfc6068064b80e2ca47a';
+      sec-mem-id   = 'classGame_1_1Cell_1a333a5ff41053176687b49bb03835aaac';
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -52,22 +52,22 @@ _EnD_oF_dEf_TeXt_;
   cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
       node = {
         node-id    = 1;
-        node-label = 'GameField::Cell';
+        node-label = 'Game::Cell';
         node-link = {
-          node-link-id = 'classGameField_1_1Cell';
+          node-link-id = 'classGame_1_1Cell';
         };
       }; /* node */
 
 _EnD_oF_dEf_TeXt_;
 }; /* class */
 class = {
-  cp-id     = 'classGameField';
-  cp-name   = 'GameField';
+  cp-id     = 'classGame';
+  cp-name   = 'Game';
   cp-section = {
     sec-kind = 'public-func';
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'group__play__game_1gaec60ce2a9e9562ff4c7bb417b14cddcd';
+      sec-mem-id   = 'group__play__game_1ga6fe0c028ee226fb12967a6e5706087b1';
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -95,7 +95,7 @@ _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'group__game__field_1ga3ffe9b40c10712116bc2d1780414b3f5';
+      sec-mem-id   = 'group__game__field_1gae5d08ed1ca26e54fa5ed103dc8da2020';
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -120,7 +120,7 @@ _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'group__play__game_1gaaca756a4f60dfd298f96ff272d3f3412';
+      sec-mem-id   = 'group__play__game_1ga9e5e30e5ba0b67fe96d4ac491bcce424';
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -149,7 +149,7 @@ _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'group__game__field_1gac54d1b006780e930dfdb253ae1d93cac';
+      sec-mem-id   = 'group__game__field_1ga60e0f9d6ff9ea3fa3f1d9637623036f3';
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -171,7 +171,7 @@ _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'group__game__field_1ga3e80cc7366363f6f834fe6488f73d2c2';
+      sec-mem-id   = 'group__game__field_1gab374a889446004edad7dd8a188867fd0';
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -200,7 +200,7 @@ _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'group__game__field_1gad1b38e5e172e3090e9575fd341f35116';
+      sec-mem-id   = 'group__game__field_1gab1b78fd806938e247af7ab8fa45f4f93';
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -221,7 +221,7 @@ _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'group__play__game_1ga71741a9728a5638b0c2851fc1abbf878';
+      sec-mem-id   = 'group__play__game_1ga47af43de273336432910e136d28cdebd';
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -242,7 +242,7 @@ _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'group__game__field_1gac335c109b1bcde5e2b167ad212a6a743';
+      sec-mem-id   = 'group__game__field_1ga6ef903a9f3ef35c9a67680a43407d31c';
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -264,7 +264,7 @@ _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'group__check__winner_1ga09a062c0fa754082e5e2e0f4caa75070';
+      sec-mem-id   = 'group__check__winner_1gaf8945758268527de0835016c4ec68dc6';
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -287,7 +287,7 @@ _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'group__game__field_1gacb836919adcaf52e28677fa722faad80';
+      sec-mem-id   = 'group__game__field_1ga84ad5f5edaace54a4cd2f1ae46536051';
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -313,7 +313,7 @@ _EnD_oF_dEf_TeXt_;
     sec-kind = 'private-attrib';
     sec-member = {
       sec-mem-kind = 'variable';
-      sec-mem-id   = 'classGameField_1ad19679c305250b905c4acbfd3bff9ccc';
+      sec-mem-id   = 'classGame_1a8c223f34a380328f0bc8185841f4ab0f';
       sec-mem-virt = normal;
       sec-mem-prot = private;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -331,7 +331,7 @@ _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'variable';
-      sec-mem-id   = 'classGameField_1a20277d930918f14bc2ddab0955a83d3d';
+      sec-mem-id   = 'classGame_1a093a4ba9ad7faff257f4fb4f4504f423';
       sec-mem-virt = normal;
       sec-mem-prot = private;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -349,7 +349,7 @@ _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'variable';
-      sec-mem-id   = 'classGameField_1a84cd27cc61b6cdac29fb115fe226b417';
+      sec-mem-id   = 'classGame_1ac0d1e595a5f0149dd5d29d13c5632c8c';
       sec-mem-virt = normal;
       sec-mem-prot = private;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -367,7 +367,7 @@ _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'variable';
-      sec-mem-id   = 'classGameField_1a03221dc0adf41e1f9e7f1c64d7c8acd1';
+      sec-mem-id   = 'classGame_1a3a708505d656aa4a04854639da67be76';
       sec-mem-virt = normal;
       sec-mem-prot = private;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -385,7 +385,7 @@ _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
     sec-member = {
       sec-mem-kind = 'variable';
-      sec-mem-id   = 'classGameField_1a3334cd234a19d83a75c1c976e2748b1c';
+      sec-mem-id   = 'classGame_1a0c86730970b0c9bf4ed0c33a9f8f8918';
       sec-mem-virt = normal;
       sec-mem-prot = private;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -413,9 +413,9 @@ _EnD_oF_dEf_TeXt_;
   cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
       node = {
         node-id    = 1;
-        node-label = 'GameField';
+        node-label = 'Game';
         node-link = {
-          node-link-id = 'classGameField';
+          node-link-id = 'classGame';
         };
       }; /* node */
 

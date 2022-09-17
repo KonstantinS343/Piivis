@@ -11,3 +11,8 @@
 1	2286	1663412411871146800	CMakeFiles/pyatnashki.dir/main.cpp.o	def4c1f31f92438e
 2076	3286	1663412412871182601	CMakeFiles/pyatnashki.dir/check_winner.cpp.o	71255f9861bf5293
 3286	3414	1663412412999187183	pyatnashki	47732db15dc2c0fb
+2	2619	1663435281403875675	CMakeFiles/pyatnashki.dir/main.cpp.o	def4c1f31f92438e
+7	2636	1663435281411875723	CMakeFiles/pyatnashki.dir/play_game.cpp.o	793452fecbbd0715
+4	2915	1663435281695877403	CMakeFiles/pyatnashki.dir/game_field.cpp.o	f47e25d1af8c1750
+2619	4071	1663435282855884266	CMakeFiles/pyatnashki.dir/check_winner.cpp.o	71255f9861bf5293
+4071	4230	1663435283015885212	pyatnashki	47732db15dc2c0fb

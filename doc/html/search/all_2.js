@@ -1,14 +1,14 @@
 var searchData=
 [
   ['c_5fversion_2',['C_VERSION',['../CMakeCCompilerId_8c.html#adaee3ee7c5a7a22451ea25e762e1d7d5',1,'CMakeCCompilerId.c']]],
-  ['cell_3',['Cell',['../classGameField_1_1Cell.html',1,'GameField']]],
+  ['cell_3',['Cell',['../classGame_1_1Cell.html',1,'Game']]],
   ['check_5fwinner_2ecpp_4',['check_winner.cpp',['../group__check__winner.html',1,'']]],
   ['check_5fwinner_2ecpp_5',['check_winner.cpp',['../check__winner_8cpp.html',1,'']]],
-  ['checkcellonrepetition_6',['CheckCellOnRepetition',['../group__game__field.html#ga3e80cc7366363f6f834fe6488f73d2c2',1,'GameField']]],
-  ['checkinputchar_7',['CheckInputChar',['../group__play__game.html#ga71741a9728a5638b0c2851fc1abbf878',1,'GameField']]],
-  ['checkinputnumber_8',['CheckInputNumber',['../group__game__field.html#gad1b38e5e172e3090e9575fd341f35116',1,'GameField']]],
-  ['checkunpossiblewin_9',['CheckUnpossibleWin',['../group__game__field.html#gacb836919adcaf52e28677fa722faad80',1,'GameField']]],
-  ['checkwinnerset_10',['CheckWinnerSet',['../group__check__winner.html#ga09a062c0fa754082e5e2e0f4caa75070',1,'GameField']]],
+  ['checkcellonrepetition_6',['CheckCellOnRepetition',['../group__game__field.html#gab374a889446004edad7dd8a188867fd0',1,'Game']]],
+  ['checkinputchar_7',['CheckInputChar',['../group__play__game.html#ga47af43de273336432910e136d28cdebd',1,'Game']]],
+  ['checkinputnumber_8',['CheckInputNumber',['../group__game__field.html#gab1b78fd806938e247af7ab8fa45f4f93',1,'Game']]],
+  ['checkunpossiblewin_9',['CheckUnpossibleWin',['../group__game__field.html#ga84ad5f5edaace54a4cd2f1ae46536051',1,'Game']]],
+  ['checkwinnerset_10',['CheckWinnerSet',['../group__check__winner.html#gaf8945758268527de0835016c4ec68dc6',1,'Game']]],
   ['clion_2denvironment_2etxt_11',['clion-environment.txt',['../clion-environment_8txt.html',1,'']]],
   ['clion_2dlog_2etxt_12',['clion-log.txt',['../clion-log_8txt.html',1,'']]],
   ['cmakecache_2etxt_13',['CMakeCache.txt',['../CMakeCache_8txt.html',1,'']]],
@@ -16,7 +16,7 @@ var searchData=
   ['cmakecxxcompilerid_2ecpp_15',['CMakeCXXCompilerId.cpp',['../CMakeCXXCompilerId_8cpp.html',1,'']]],
   ['cmakelists_2etxt_16',['CMakeLists.txt',['../CMakeLists_8txt.html',1,'']]],
   ['compiler_5fid_17',['COMPILER_ID',['../CMakeCCompilerId_8c.html#a81dee0709ded976b2e0319239f72d174',1,'COMPILER_ID():&#160;CMakeCCompilerId.c'],['../CMakeCXXCompilerId_8cpp.html#a81dee0709ded976b2e0319239f72d174',1,'COMPILER_ID():&#160;CMakeCXXCompilerId.cpp']]],
-  ['counter_5fof_5fmove_18',['counter_of_move',['../classGameField.html#a3334cd234a19d83a75c1c976e2748b1c',1,'GameField']]],
-  ['createfield_19',['CreateField',['../group__game__field.html#ga3ffe9b40c10712116bc2d1780414b3f5',1,'GameField']]],
+  ['counter_5fof_5fmove_18',['counter_of_move',['../classGame.html#a0c86730970b0c9bf4ed0c33a9f8f8918',1,'Game']]],
+  ['createfield_19',['CreateField',['../group__game__field.html#gae5d08ed1ca26e54fa5ed103dc8da2020',1,'Game']]],
   ['cxx_5fstd_20',['CXX_STD',['../CMakeCXXCompilerId_8cpp.html#a34cc889e576a1ae6c84ae9e0a851ba21',1,'CMakeCXXCompilerId.cpp']]]
 ];

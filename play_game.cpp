@@ -9,7 +9,7 @@
  * @{
  */
 
-void GameField::PlayProcess() {
+void Game::PlayProcess() {
 
     CreateField();
     ShowField();
@@ -112,7 +112,7 @@ void GameField::PlayProcess() {
 
 }
 
-char GameField::CheckInputChar() {
+char Game::CheckInputChar() {
 
     char symbol;
     std::cin>>symbol;
@@ -128,7 +128,7 @@ char GameField::CheckInputChar() {
 
 }
 
-std::vector<GameField::Cell> GameField::operator[](const int& index) {
+std::vector<Game::Cell> Game::operator[](const int& index) {
 
     if(index<0 && index>size_of_field){
         throw std::exception();
