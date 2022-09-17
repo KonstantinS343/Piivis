@@ -50,12 +50,12 @@ private:
 public:
 
     /// \brief оператора индексирования,для просмотра элемента
-    /// \param index принимает индекс вектора, который нужно вернуть
+    /// \param index принимает константную ссылку на индекс вектора, который нужно вернуть
     /// \return вектор строк, который состоит из клеток поля
     /// \author Konstantsin
     /// \see std::vector<std::vector<Cell>> field
     /// \see play_game.cpp
-    std::vector<Cell> operator [](int index);
+    std::vector<Cell> operator [](const int& index);
 
     ///\brief метод создания игрового поля
     /// \author Konstantsin

@@ -8,7 +8,7 @@ var classGameField =
     [ "CheckWinnerSet", "group__check__winner.html#ga09a062c0fa754082e5e2e0f4caa75070", null ],
     [ "CreateField", "group__game__field.html#ga3ffe9b40c10712116bc2d1780414b3f5", null ],
     [ "DeleteField", "group__game__field.html#gac335c109b1bcde5e2b167ad212a6a743", null ],
-    [ "operator[]", "group__play__game.html#gacd7b99e013b64627b7313bc7460a71fb", null ],
+    [ "operator[]", "group__play__game.html#gaec60ce2a9e9562ff4c7bb417b14cddcd", null ],
     [ "PlayProcess", "group__play__game.html#gaaca756a4f60dfd298f96ff272d3f3412", null ],
     [ "ShowField", "group__game__field.html#gac54d1b006780e930dfdb253ae1d93cac", null ],
     [ "counter_of_move", "classGameField.html#a3334cd234a19d83a75c1c976e2748b1c", null ],

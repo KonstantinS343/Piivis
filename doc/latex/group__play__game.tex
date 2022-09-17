@@ -1,0 +1,122 @@
+\hypertarget{group__play__game}{}\doxysection{play\+\_\+game.\+cpp}
+\label{group__play__game}\index{play\_game.cpp@{play\_game.cpp}}
+
+
+Игровой процесс  
+
+
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__play__game_gaaca756a4f60dfd298f96ff272d3f3412}{Game\+Field\+::\+Play\+Process}} ()
+\begin{DoxyCompactList}\small\item\em процесс игры \end{DoxyCompactList}\item 
+char \mbox{\hyperlink{group__play__game_ga71741a9728a5638b0c2851fc1abbf878}{Game\+Field\+::\+Check\+Input\+Char}} ()
+\begin{DoxyCompactList}\small\item\em проверка на ввод для символов \end{DoxyCompactList}\item 
+std\+::vector$<$ \mbox{\hyperlink{classGameField_1_1Cell}{Cell}} $>$ \mbox{\hyperlink{group__play__game_gaec60ce2a9e9562ff4c7bb417b14cddcd}{Game\+Field\+::operator\mbox{[}$\,$\mbox{]}}} (const int \&index)
+\begin{DoxyCompactList}\small\item\em оператора индексирования,для просмотра элемента \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Игровой процесс 
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{group__play__game_ga71741a9728a5638b0c2851fc1abbf878}\label{group__play__game_ga71741a9728a5638b0c2851fc1abbf878}} 
+\index{play\_game.cpp@{play\_game.cpp}!CheckInputChar@{CheckInputChar}}
+\index{CheckInputChar@{CheckInputChar}!play\_game.cpp@{play\_game.cpp}}
+\doxysubsubsection{\texorpdfstring{CheckInputChar()}{CheckInputChar()}}
+{\footnotesize\ttfamily char Game\+Field\+::\+Check\+Input\+Char (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+{\ttfamily \#include $<$\mbox{\hyperlink{game_8h}{game.\+h}}$>$}
+
+
+
+проверка на ввод для символов 
+
+\begin{DoxyReturn}{Returns}
+возвращает символ, которое необходимо проверить 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Konstantsin 
+\end{DoxyAuthor}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em exception} & при неправильном вводе \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{play__game_8cpp}{play\+\_\+game.\+cpp}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group__play__game_gaec60ce2a9e9562ff4c7bb417b14cddcd}\label{group__play__game_gaec60ce2a9e9562ff4c7bb417b14cddcd}} 
+\index{play\_game.cpp@{play\_game.cpp}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!play\_game.cpp@{play\_game.cpp}}
+\doxysubsubsection{\texorpdfstring{operator[]()}{operator[]()}}
+{\footnotesize\ttfamily std\+::vector$<$ \mbox{\hyperlink{classGameField_1_1Cell}{Game\+Field\+::\+Cell}} $>$ Game\+Field\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{const int \&}]{index }\end{DoxyParamCaption})}
+
+
+
+{\ttfamily \#include $<$\mbox{\hyperlink{game_8h}{game.\+h}}$>$}
+
+
+
+оператора индексирования,для просмотра элемента 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & принимает константную ссылку на индекс вектора, который нужно вернуть \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+вектор строк, который состоит из клеток поля 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Konstantsin 
+\end{DoxyAuthor}
+\begin{DoxySeeAlso}{See also}
+std\+::vector$<$std\+::vector$<$\+Cell$>$$>$ \mbox{\hyperlink{classGameField_a20277d930918f14bc2ddab0955a83d3d}{field}} 
+
+\mbox{\hyperlink{play__game_8cpp}{play\+\_\+game.\+cpp}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group__play__game_gaaca756a4f60dfd298f96ff272d3f3412}\label{group__play__game_gaaca756a4f60dfd298f96ff272d3f3412}} 
+\index{play\_game.cpp@{play\_game.cpp}!PlayProcess@{PlayProcess}}
+\index{PlayProcess@{PlayProcess}!play\_game.cpp@{play\_game.cpp}}
+\doxysubsubsection{\texorpdfstring{PlayProcess()}{PlayProcess()}}
+{\footnotesize\ttfamily void Game\+Field\+::\+Play\+Process (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+{\ttfamily \#include $<$\mbox{\hyperlink{game_8h}{game.\+h}}$>$}
+
+
+
+процесс игры 
+
+\begin{DoxyAuthor}{Author}
+Konstantsin 
+\end{DoxyAuthor}
+\begin{DoxySeeAlso}{See also}
+void \mbox{\hyperlink{group__game__field_ga3ffe9b40c10712116bc2d1780414b3f5}{Create\+Field()}} 
+
+void \mbox{\hyperlink{group__game__field_gac54d1b006780e930dfdb253ae1d93cac}{Show\+Field()}} 
+
+void \mbox{\hyperlink{group__game__field_gac335c109b1bcde5e2b167ad212a6a743}{Delete\+Field()}} 
+
+std\+::pair$<$int,int$>$ \mbox{\hyperlink{classGameField_a03221dc0adf41e1f9e7f1c64d7c8acd1}{points\+\_\+of\+\_\+empty}} 
+
+std\+::vector$<$std\+::vector$<$\+Cell$>$$>$ \mbox{\hyperlink{classGameField_a20277d930918f14bc2ddab0955a83d3d}{field}} 
+
+int \mbox{\hyperlink{classGameField_ad19679c305250b905c4acbfd3bff9ccc}{size\+\_\+of\+\_\+field}} 
+
+int number 
+
+std\+::pair$<$int,int$>$ points 
+
+char \mbox{\hyperlink{group__play__game_ga71741a9728a5638b0c2851fc1abbf878}{Check\+Input\+Char()}} 
+
+bool \mbox{\hyperlink{group__check__winner_ga09a062c0fa754082e5e2e0f4caa75070}{Check\+Winner\+Set()}} 
+
+\mbox{\hyperlink{play__game_8cpp}{play\+\_\+game.\+cpp}} 
+\end{DoxySeeAlso}

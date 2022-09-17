@@ -9,15 +9,7 @@
  * @{
  */
 
-///\brief метод создания игрового поля
-/// \author Konstantsin
-/// \see std::pair<int,int> points_of_empty
-/// \see std::vector<std::vector<int>> pattern_of_winners_set
-/// \see std::vector<std::vector<Cell>> field
-/// \see int size_of_field
-/// \see bool CheckCellOnRepetition(int number)
-/// \see int CheckInputNumber()
-/// \see game_field.cpp
+
 void GameField::CreateField() {
 
     srand(time(NULL));
@@ -60,13 +52,6 @@ void GameField::CreateField() {
 
 }
 
-///\brief проверка на расстановку клеток без повторения
-/// \param number принимает рандомно сгенерированное число, которое нужно поместить в игровую клетку
-/// \return true, если такого числа на поле нет, и false, если такое число уже имеется
-/// \author Konstantsin
-/// \see int size_of_field;
-/// \see std::vector<std::vector<Cell>> field
-/// \see game_field.cpp
 bool GameField::CheckCellOnRepetition(int number) {
 
     for(int i = 0; i <= size_of_field; i++){
@@ -83,12 +68,6 @@ bool GameField::CheckCellOnRepetition(int number) {
 
 }
 
-///\brief метод вывода поля на экран
-/// \author Konstantsin
-/// \see int size_of_field;
-/// \see std::vector<std::vector<Cell>> field
-/// \see std::vector<Cell> operator [](int index)
-/// \see game_field.cpp
 void GameField::ShowField() {
 
     for(int i = 0; i < size_of_field; i++){
@@ -112,11 +91,7 @@ void GameField::ShowField() {
 
 }
 
-///\brief проверка на ввод для чисел
-/// \return возвращает число, которое необходимо проверить
-/// \author Konstantsin
-/// \throw exception при неправильном вводе
-/// \see game_field.cpp
+
 int GameField::CheckInputNumber() {
 
     int choice;
@@ -140,12 +115,7 @@ int GameField::CheckInputNumber() {
 
 }
 
-///\brief очищает поле
-/// \author Konstantsin
-/// \see std::vector<std::vector<Cell>> field
-/// \see int counter_of_move
-/// \see std::vector<std::vector<int>> pattern_of_winners_set
-/// \see game_field.cpp
+
 void GameField::DeleteField() {
 
     for(int i = 0; i < size_of_field; i++){
@@ -159,13 +129,7 @@ void GameField::DeleteField() {
 
 }
 
-///\brief проверка на возможность выиграть при поле со стороной 2
-/// \return true, если выиграть нельзя, и false, если можно
-/// \author Konstantsin
-/// \see  int size_of_field
-/// \see std::vector<std::vector<Cell>> field
-/// \see  game_field.cpp
-/// \see play_game.cpp
+
 bool GameField::CheckUnpossibleWin() {
     if(size_of_field != 2){
         return false;

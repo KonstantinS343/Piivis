@@ -13,13 +13,6 @@
  * @{
  */
 
-///\brief проверка на победу
-/// \return true, если клетки расставлены правильно, и false, если это не так
-/// \author Konstantsin
-/// \see  int size_of_field
-/// \see std::vector<std::vector<int>> pattern_of_winners_se
-/// \see std::vector<std::vector<Cell>> field
-/// \see  check_winner.cpp
 bool GameField::CheckWinnerSet() {
 
     for(int i = 0; i < size_of_field; i++){

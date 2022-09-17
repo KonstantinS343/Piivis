@@ -1,0 +1,127 @@
+\hypertarget{classGameField}{}\doxysection{Game\+Field Class Reference}
+\label{classGameField}\index{GameField@{GameField}}
+
+
+Реализация класса  
+
+
+
+
+{\ttfamily \#include \char`\"{}game.\+h\char`\"{}}
+
+
+
+Collaboration diagram for Game\+Field\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=228pt]{classGameField__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classGameField_1_1Cell}{Cell}}
+\begin{DoxyCompactList}\small\item\em Вложенный класс \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{classGameField_1_1Cell}{Cell}} $>$ \mbox{\hyperlink{group__play__game_gaec60ce2a9e9562ff4c7bb417b14cddcd}{operator\mbox{[}$\,$\mbox{]}}} (const int \&index)
+\begin{DoxyCompactList}\small\item\em оператора индексирования,для просмотра элемента \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__game__field_ga3ffe9b40c10712116bc2d1780414b3f5}{Create\+Field}} ()
+\begin{DoxyCompactList}\small\item\em метод создания игрового поля \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__play__game_gaaca756a4f60dfd298f96ff272d3f3412}{Play\+Process}} ()
+\begin{DoxyCompactList}\small\item\em процесс игры \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__game__field_gac54d1b006780e930dfdb253ae1d93cac}{Show\+Field}} ()
+\begin{DoxyCompactList}\small\item\em метод вывода поля на экран \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group__game__field_ga3e80cc7366363f6f834fe6488f73d2c2}{Check\+Cell\+On\+Repetition}} (int number)
+\begin{DoxyCompactList}\small\item\em проверка на расстановку клеток без повторения \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{group__game__field_gad1b38e5e172e3090e9575fd341f35116}{Check\+Input\+Number}} ()
+\begin{DoxyCompactList}\small\item\em проверка на ввод для чисел \end{DoxyCompactList}\item 
+char \mbox{\hyperlink{group__play__game_ga71741a9728a5638b0c2851fc1abbf878}{Check\+Input\+Char}} ()
+\begin{DoxyCompactList}\small\item\em проверка на ввод для символов \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__game__field_gac335c109b1bcde5e2b167ad212a6a743}{Delete\+Field}} ()
+\begin{DoxyCompactList}\small\item\em очищает поле \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group__check__winner_ga09a062c0fa754082e5e2e0f4caa75070}{Check\+Winner\+Set}} ()
+\begin{DoxyCompactList}\small\item\em проверка на победу \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group__game__field_gacb836919adcaf52e28677fa722faad80}{Check\+Unpossible\+Win}} ()
+\begin{DoxyCompactList}\small\item\em проверка на возможность выиграть при поле со стороной 2. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classGameField_ad19679c305250b905c4acbfd3bff9ccc}{size\+\_\+of\+\_\+field}}
+\begin{DoxyCompactList}\small\item\em размер поля \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::vector$<$ \mbox{\hyperlink{classGameField_1_1Cell}{Cell}} $>$ $>$ \mbox{\hyperlink{classGameField_a20277d930918f14bc2ddab0955a83d3d}{field}}
+\begin{DoxyCompactList}\small\item\em игровое поле \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::vector$<$ int $>$ $>$ \mbox{\hyperlink{classGameField_a84cd27cc61b6cdac29fb115fe226b417}{pattern\+\_\+of\+\_\+winners\+\_\+set}}
+\begin{DoxyCompactList}\small\item\em шаблон выиграшной комбинации \end{DoxyCompactList}\item 
+std\+::pair$<$ int, int $>$ \mbox{\hyperlink{classGameField_a03221dc0adf41e1f9e7f1c64d7c8acd1}{points\+\_\+of\+\_\+empty}}
+\begin{DoxyCompactList}\small\item\em хранит координаты пустой клетки \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classGameField_a3334cd234a19d83a75c1c976e2748b1c}{counter\+\_\+of\+\_\+move}}
+\begin{DoxyCompactList}\small\item\em счетчик количества ходов \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Реализация класса 
+
+Данный класс реализует игру птянашки, а также содержит вложенный класс 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classGameField_a3334cd234a19d83a75c1c976e2748b1c}\label{classGameField_a3334cd234a19d83a75c1c976e2748b1c}} 
+\index{GameField@{GameField}!counter\_of\_move@{counter\_of\_move}}
+\index{counter\_of\_move@{counter\_of\_move}!GameField@{GameField}}
+\doxysubsubsection{\texorpdfstring{counter\_of\_move}{counter\_of\_move}}
+{\footnotesize\ttfamily int Game\+Field\+::counter\+\_\+of\+\_\+move\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+счетчик количества ходов 
+
+\mbox{\Hypertarget{classGameField_a20277d930918f14bc2ddab0955a83d3d}\label{classGameField_a20277d930918f14bc2ddab0955a83d3d}} 
+\index{GameField@{GameField}!field@{field}}
+\index{field@{field}!GameField@{GameField}}
+\doxysubsubsection{\texorpdfstring{field}{field}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::vector$<$\mbox{\hyperlink{classGameField_1_1Cell}{Cell}}$>$ $>$ Game\+Field\+::field\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+игровое поле 
+
+\mbox{\Hypertarget{classGameField_a84cd27cc61b6cdac29fb115fe226b417}\label{classGameField_a84cd27cc61b6cdac29fb115fe226b417}} 
+\index{GameField@{GameField}!pattern\_of\_winners\_set@{pattern\_of\_winners\_set}}
+\index{pattern\_of\_winners\_set@{pattern\_of\_winners\_set}!GameField@{GameField}}
+\doxysubsubsection{\texorpdfstring{pattern\_of\_winners\_set}{pattern\_of\_winners\_set}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::vector$<$int$>$ $>$ Game\+Field\+::pattern\+\_\+of\+\_\+winners\+\_\+set\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+шаблон выиграшной комбинации 
+
+\mbox{\Hypertarget{classGameField_a03221dc0adf41e1f9e7f1c64d7c8acd1}\label{classGameField_a03221dc0adf41e1f9e7f1c64d7c8acd1}} 
+\index{GameField@{GameField}!points\_of\_empty@{points\_of\_empty}}
+\index{points\_of\_empty@{points\_of\_empty}!GameField@{GameField}}
+\doxysubsubsection{\texorpdfstring{points\_of\_empty}{points\_of\_empty}}
+{\footnotesize\ttfamily std\+::pair$<$int,int$>$ Game\+Field\+::points\+\_\+of\+\_\+empty\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+хранит координаты пустой клетки 
+
+\mbox{\Hypertarget{classGameField_ad19679c305250b905c4acbfd3bff9ccc}\label{classGameField_ad19679c305250b905c4acbfd3bff9ccc}} 
+\index{GameField@{GameField}!size\_of\_field@{size\_of\_field}}
+\index{size\_of\_field@{size\_of\_field}!GameField@{GameField}}
+\doxysubsubsection{\texorpdfstring{size\_of\_field}{size\_of\_field}}
+{\footnotesize\ttfamily int Game\+Field\+::size\+\_\+of\+\_\+field\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+размер поля 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{game_8h}{game.\+h}}\item 
+\mbox{\hyperlink{check__winner_8cpp}{check\+\_\+winner.\+cpp}}\item 
+\mbox{\hyperlink{game__field_8cpp}{game\+\_\+field.\+cpp}}\item 
+\mbox{\hyperlink{play__game_8cpp}{play\+\_\+game.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,203 @@
+\hypertarget{group__game__field}{}\doxysection{game\+\_\+field.\+cpp}
+\label{group__game__field}\index{game\_field.cpp@{game\_field.cpp}}
+
+
+Игровой поле  
+
+
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group__game__field_ga3ffe9b40c10712116bc2d1780414b3f5}{Game\+Field\+::\+Create\+Field}} ()
+\begin{DoxyCompactList}\small\item\em метод создания игрового поля \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group__game__field_ga3e80cc7366363f6f834fe6488f73d2c2}{Game\+Field\+::\+Check\+Cell\+On\+Repetition}} (int number)
+\begin{DoxyCompactList}\small\item\em проверка на расстановку клеток без повторения \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__game__field_gac54d1b006780e930dfdb253ae1d93cac}{Game\+Field\+::\+Show\+Field}} ()
+\begin{DoxyCompactList}\small\item\em метод вывода поля на экран \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{group__game__field_gad1b38e5e172e3090e9575fd341f35116}{Game\+Field\+::\+Check\+Input\+Number}} ()
+\begin{DoxyCompactList}\small\item\em проверка на ввод для чисел \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group__game__field_gac335c109b1bcde5e2b167ad212a6a743}{Game\+Field\+::\+Delete\+Field}} ()
+\begin{DoxyCompactList}\small\item\em очищает поле \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{group__game__field_gacb836919adcaf52e28677fa722faad80}{Game\+Field\+::\+Check\+Unpossible\+Win}} ()
+\begin{DoxyCompactList}\small\item\em проверка на возможность выиграть при поле со стороной 2. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Игровой поле 
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{group__game__field_ga3e80cc7366363f6f834fe6488f73d2c2}\label{group__game__field_ga3e80cc7366363f6f834fe6488f73d2c2}} 
+\index{game\_field.cpp@{game\_field.cpp}!CheckCellOnRepetition@{CheckCellOnRepetition}}
+\index{CheckCellOnRepetition@{CheckCellOnRepetition}!game\_field.cpp@{game\_field.cpp}}
+\doxysubsubsection{\texorpdfstring{CheckCellOnRepetition()}{CheckCellOnRepetition()}}
+{\footnotesize\ttfamily bool Game\+Field\+::\+Check\+Cell\+On\+Repetition (\begin{DoxyParamCaption}\item[{int}]{number }\end{DoxyParamCaption})}
+
+
+
+{\ttfamily \#include $<$\mbox{\hyperlink{game_8h}{game.\+h}}$>$}
+
+
+
+проверка на расстановку клеток без повторения 
+
+
+\begin{DoxyParams}{Parameters}
+{\em number} & принимает рандомно сгенерированное число, которое нужно поместить в игровую клетку \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true, если такого числа на поле нет, и false, если такое число уже имеется 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Konstantsin 
+\end{DoxyAuthor}
+\begin{DoxySeeAlso}{See also}
+int \mbox{\hyperlink{classGameField_ad19679c305250b905c4acbfd3bff9ccc}{size\+\_\+of\+\_\+field}}; 
+
+std\+::vector$<$std\+::vector$<$\+Cell$>$$>$ \mbox{\hyperlink{classGameField_a20277d930918f14bc2ddab0955a83d3d}{field}} 
+
+\mbox{\hyperlink{game__field_8cpp}{game\+\_\+field.\+cpp}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group__game__field_gad1b38e5e172e3090e9575fd341f35116}\label{group__game__field_gad1b38e5e172e3090e9575fd341f35116}} 
+\index{game\_field.cpp@{game\_field.cpp}!CheckInputNumber@{CheckInputNumber}}
+\index{CheckInputNumber@{CheckInputNumber}!game\_field.cpp@{game\_field.cpp}}
+\doxysubsubsection{\texorpdfstring{CheckInputNumber()}{CheckInputNumber()}}
+{\footnotesize\ttfamily int Game\+Field\+::\+Check\+Input\+Number (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+{\ttfamily \#include $<$\mbox{\hyperlink{game_8h}{game.\+h}}$>$}
+
+
+
+проверка на ввод для чисел 
+
+\begin{DoxyReturn}{Returns}
+возвращает число, которое необходимо проверить 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Konstantsin 
+\end{DoxyAuthor}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em exception} & при неправильном вводе \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{game__field_8cpp}{game\+\_\+field.\+cpp}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group__game__field_gacb836919adcaf52e28677fa722faad80}\label{group__game__field_gacb836919adcaf52e28677fa722faad80}} 
+\index{game\_field.cpp@{game\_field.cpp}!CheckUnpossibleWin@{CheckUnpossibleWin}}
+\index{CheckUnpossibleWin@{CheckUnpossibleWin}!game\_field.cpp@{game\_field.cpp}}
+\doxysubsubsection{\texorpdfstring{CheckUnpossibleWin()}{CheckUnpossibleWin()}}
+{\footnotesize\ttfamily bool Game\+Field\+::\+Check\+Unpossible\+Win (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+{\ttfamily \#include $<$\mbox{\hyperlink{game_8h}{game.\+h}}$>$}
+
+
+
+проверка на возможность выиграть при поле со стороной 2. 
+
+\begin{DoxyReturn}{Returns}
+true, если выиграть нельзя, и false, если можно 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Konstantsin 
+\end{DoxyAuthor}
+\begin{DoxySeeAlso}{See also}
+int \mbox{\hyperlink{classGameField_ad19679c305250b905c4acbfd3bff9ccc}{size\+\_\+of\+\_\+field}} 
+
+std\+::vector$<$std\+::vector$<$\+Cell$>$$>$ \mbox{\hyperlink{classGameField_a20277d930918f14bc2ddab0955a83d3d}{field}} 
+
+\mbox{\hyperlink{game__field_8cpp}{game\+\_\+field.\+cpp}} 
+
+\mbox{\hyperlink{play__game_8cpp}{play\+\_\+game.\+cpp}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group__game__field_ga3ffe9b40c10712116bc2d1780414b3f5}\label{group__game__field_ga3ffe9b40c10712116bc2d1780414b3f5}} 
+\index{game\_field.cpp@{game\_field.cpp}!CreateField@{CreateField}}
+\index{CreateField@{CreateField}!game\_field.cpp@{game\_field.cpp}}
+\doxysubsubsection{\texorpdfstring{CreateField()}{CreateField()}}
+{\footnotesize\ttfamily void Game\+Field\+::\+Create\+Field (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+{\ttfamily \#include $<$\mbox{\hyperlink{game_8h}{game.\+h}}$>$}
+
+
+
+метод создания игрового поля 
+
+\begin{DoxyAuthor}{Author}
+Konstantsin 
+\end{DoxyAuthor}
+\begin{DoxySeeAlso}{See also}
+std\+::pair$<$int,int$>$ \mbox{\hyperlink{classGameField_a03221dc0adf41e1f9e7f1c64d7c8acd1}{points\+\_\+of\+\_\+empty}} 
+
+std\+::vector$<$std\+::vector$<$int$>$$>$ \mbox{\hyperlink{classGameField_a84cd27cc61b6cdac29fb115fe226b417}{pattern\+\_\+of\+\_\+winners\+\_\+set}} 
+
+std\+::vector$<$std\+::vector$<$\+Cell$>$$>$ \mbox{\hyperlink{classGameField_a20277d930918f14bc2ddab0955a83d3d}{field}} 
+
+int \mbox{\hyperlink{classGameField_ad19679c305250b905c4acbfd3bff9ccc}{size\+\_\+of\+\_\+field}} 
+
+bool \mbox{\hyperlink{group__game__field_ga3e80cc7366363f6f834fe6488f73d2c2}{Check\+Cell\+On\+Repetition(int number)}} 
+
+int \mbox{\hyperlink{group__game__field_gad1b38e5e172e3090e9575fd341f35116}{Check\+Input\+Number()}} 
+
+\mbox{\hyperlink{game__field_8cpp}{game\+\_\+field.\+cpp}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group__game__field_gac335c109b1bcde5e2b167ad212a6a743}\label{group__game__field_gac335c109b1bcde5e2b167ad212a6a743}} 
+\index{game\_field.cpp@{game\_field.cpp}!DeleteField@{DeleteField}}
+\index{DeleteField@{DeleteField}!game\_field.cpp@{game\_field.cpp}}
+\doxysubsubsection{\texorpdfstring{DeleteField()}{DeleteField()}}
+{\footnotesize\ttfamily void Game\+Field\+::\+Delete\+Field (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+{\ttfamily \#include $<$\mbox{\hyperlink{game_8h}{game.\+h}}$>$}
+
+
+
+очищает поле 
+
+\begin{DoxyAuthor}{Author}
+Konstantsin 
+\end{DoxyAuthor}
+\begin{DoxySeeAlso}{See also}
+std\+::vector$<$std\+::vector$<$\+Cell$>$$>$ \mbox{\hyperlink{classGameField_a20277d930918f14bc2ddab0955a83d3d}{field}} 
+
+int \mbox{\hyperlink{classGameField_a3334cd234a19d83a75c1c976e2748b1c}{counter\+\_\+of\+\_\+move}} 
+
+std\+::vector$<$std\+::vector$<$int$>$$>$ \mbox{\hyperlink{classGameField_a84cd27cc61b6cdac29fb115fe226b417}{pattern\+\_\+of\+\_\+winners\+\_\+set}} 
+
+\mbox{\hyperlink{game__field_8cpp}{game\+\_\+field.\+cpp}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{group__game__field_gac54d1b006780e930dfdb253ae1d93cac}\label{group__game__field_gac54d1b006780e930dfdb253ae1d93cac}} 
+\index{game\_field.cpp@{game\_field.cpp}!ShowField@{ShowField}}
+\index{ShowField@{ShowField}!game\_field.cpp@{game\_field.cpp}}
+\doxysubsubsection{\texorpdfstring{ShowField()}{ShowField()}}
+{\footnotesize\ttfamily void Game\+Field\+::\+Show\+Field (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+{\ttfamily \#include $<$\mbox{\hyperlink{game_8h}{game.\+h}}$>$}
+
+
+
+метод вывода поля на экран 
+
+\begin{DoxyAuthor}{Author}
+Konstantsin 
+\end{DoxyAuthor}
+\begin{DoxySeeAlso}{See also}
+int \mbox{\hyperlink{classGameField_ad19679c305250b905c4acbfd3bff9ccc}{size\+\_\+of\+\_\+field}}; 
+
+std\+::vector$<$std\+::vector$<$\+Cell$>$$>$ \mbox{\hyperlink{classGameField_a20277d930918f14bc2ddab0955a83d3d}{field}} 
+
+std\+::vector$<$\+Cell$>$ operator \mbox{[}$\,$\mbox{]}(int index) 
+
+\mbox{\hyperlink{game__field_8cpp}{game\+\_\+field.\+cpp}} 
+\end{DoxySeeAlso}

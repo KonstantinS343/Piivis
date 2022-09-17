@@ -14,7 +14,7 @@ int
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'number';
       sec-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/game.h';
-      sec-mem-desc-line = '28';
+      sec-mem-desc-line = '29';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 значение, которое содержит одна клетка
 _EnD_oF_dEf_TeXt_;
@@ -32,7 +32,7 @@ std::pair< int, int >
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'points';
       sec-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/game.h';
-      sec-mem-desc-line = '31';
+      sec-mem-desc-line = '32';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 координаты числа на игровой сетке
 _EnD_oF_dEf_TeXt_;
@@ -42,7 +42,7 @@ _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
   }; /* cp-section */
   cp-filename  = '/home/konstantin/CLionProjects/pyatnashki/game.h';
-  cp-fileline  = '25';
+  cp-fileline  = '26';
   cp-briefdesc = <<_EnD_oF_dEf_TeXt_
 Вложенный класс
 _EnD_oF_dEf_TeXt_;
@@ -67,7 +67,7 @@ class = {
     sec-kind = 'public-func';
     sec-member = {
       sec-mem-kind = 'function';
-      sec-mem-id   = 'group__play__game_1gacd7b99e013b64627b7313bc7460a71fb';
+      sec-mem-id   = 'group__play__game_1gaec60ce2a9e9562ff4c7bb417b14cddcd';
       sec-mem-virt = normal;
       sec-mem-prot = public;
       sec-mem-type = <<_EnD_oF_dEf_TeXt_
@@ -76,17 +76,17 @@ _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'operator[]';
       sec-mem-param = {
         sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
-int
+const int &
 _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'index';
       }; /*        sec-mem-param--param */
       sec-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/game.h';
-      sec-mem-desc-line = '57';
+      sec-mem-desc-line = '58';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 оператора индексирования,для просмотра элемента
 _EnD_oF_dEf_TeXt_;
       sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
-@param index принимает индекс вектора, который нужно вернуть
+@param index принимает константную ссылку на индекс вектора, который нужно вернуть
 \return вектор строк, который состоит из клеток поля
 \author Konstantsin
 \see std::vector<std::vector<Cell>> field
@@ -103,7 +103,7 @@ void
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'CreateField';
       sec-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/game.h';
-      sec-mem-desc-line = '68';
+      sec-mem-desc-line = '69';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 метод создания игрового поля
 _EnD_oF_dEf_TeXt_;
@@ -128,7 +128,7 @@ void
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'PlayProcess';
       sec-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/game.h';
-      sec-mem-desc-line = '83';
+      sec-mem-desc-line = '84';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 процесс игры
 _EnD_oF_dEf_TeXt_;
@@ -157,7 +157,7 @@ void
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'ShowField';
       sec-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/game.h';
-      sec-mem-desc-line = '91';
+      sec-mem-desc-line = '92';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 метод вывода поля на экран
 _EnD_oF_dEf_TeXt_;
@@ -185,7 +185,7 @@ _EnD_oF_dEf_TeXt_;
         sec-mem-param-declname = 'number';
       }; /*        sec-mem-param--param */
       sec-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/game.h';
-      sec-mem-desc-line = '100';
+      sec-mem-desc-line = '101';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 проверка на расстановку клеток без повторения
 _EnD_oF_dEf_TeXt_;
@@ -208,7 +208,7 @@ int
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'CheckInputNumber';
       sec-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/game.h';
-      sec-mem-desc-line = '107';
+      sec-mem-desc-line = '108';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 проверка на ввод для чисел
 _EnD_oF_dEf_TeXt_;
@@ -229,7 +229,7 @@ char
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'CheckInputChar';
       sec-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/game.h';
-      sec-mem-desc-line = '114';
+      sec-mem-desc-line = '115';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 проверка на ввод для символов
 _EnD_oF_dEf_TeXt_;
@@ -250,7 +250,7 @@ void
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'DeleteField';
       sec-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/game.h';
-      sec-mem-desc-line = '122';
+      sec-mem-desc-line = '123';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 очищает поле
 _EnD_oF_dEf_TeXt_;
@@ -272,7 +272,7 @@ bool
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'CheckWinnerSet';
       sec-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/game.h';
-      sec-mem-desc-line = '131';
+      sec-mem-desc-line = '132';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 проверка на победу
 _EnD_oF_dEf_TeXt_;
@@ -295,7 +295,7 @@ bool
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'CheckUnpossibleWin';
       sec-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/game.h';
-      sec-mem-desc-line = '140';
+      sec-mem-desc-line = '141';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 проверка на возможность выиграть при поле со стороной 2.
 _EnD_oF_dEf_TeXt_;
@@ -321,7 +321,7 @@ int
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'size_of_field';
       sec-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/game.h';
-      sec-mem-desc-line = '35';
+      sec-mem-desc-line = '36';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 размер поля
 _EnD_oF_dEf_TeXt_;
@@ -339,7 +339,7 @@ std::vector< std::vector< Cell > >
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'field';
       sec-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/game.h';
-      sec-mem-desc-line = '38';
+      sec-mem-desc-line = '39';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 игровое поле
 _EnD_oF_dEf_TeXt_;
@@ -357,7 +357,7 @@ std::vector< std::vector< int > >
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'pattern_of_winners_set';
       sec-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/game.h';
-      sec-mem-desc-line = '41';
+      sec-mem-desc-line = '42';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 шаблон выиграшной комбинации
 _EnD_oF_dEf_TeXt_;
@@ -375,7 +375,7 @@ std::pair< int, int >
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'points_of_empty';
       sec-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/game.h';
-      sec-mem-desc-line = '44';
+      sec-mem-desc-line = '45';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 хранит координаты пустой клетки
 _EnD_oF_dEf_TeXt_;
@@ -393,7 +393,7 @@ int
 _EnD_oF_dEf_TeXt_;
       sec-mem-name = 'counter_of_move';
       sec-mem-desc-file = '/home/konstantin/CLionProjects/pyatnashki/game.h';
-      sec-mem-desc-line = '47';
+      sec-mem-desc-line = '48';
       sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
 счетчик количества ходов
 _EnD_oF_dEf_TeXt_;
@@ -403,7 +403,7 @@ _EnD_oF_dEf_TeXt_;
     }; /* sec-member */
   }; /* cp-section */
   cp-filename  = '/home/konstantin/CLionProjects/pyatnashki/game.h';
-  cp-fileline  = '19';
+  cp-fileline  = '20';
   cp-briefdesc = <<_EnD_oF_dEf_TeXt_
 Реализация класса
 _EnD_oF_dEf_TeXt_;

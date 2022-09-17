@@ -1,16 +1,13 @@
 # ninja log v5
 9456	9529	1662907210179185213	lib/libgtest.a	e509b518df845a76
-1	1621	1662907202279005564	CMakeFiles/pyatnashki.dir/main.cpp.o	381a94e2c9593851
-1	2305	1662907202955020937	CMakeFiles/pyatnashki.dir/play_game.cpp.o	29cfb06a5c926504
-0	796	1662813244716988398	CMakeFiles/pyatnashki.dir/spots.cpp.o	feb866a41d6168c
-2305	9456	1662907210103183486	googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	e12b06da47a7a8e8
-1	2608	1662907203267028032	CMakeFiles/pyatnashki.dir/game_field.cpp.o	aa288c21e8c086b
-9537	9904	1662907210559193855	pyatnashki	86194e27411a0a50
-2608	4288	1662907204943066144	googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	fad2359ebf1022d7
-9529	9537	1662907210195185577	lib/libgtest_main.a	c28b03ff7018ce2a
-1621	3729	1662907204387053501	CMakeFiles/pyatnashki.dir/check_winner.cpp.o	667a7c3d5342c67d
-2	1304	1662909023109406050	CMakeFiles/pyatnashki.dir/play_game.cpp.o	793452fecbbd0715
 2	1955	1662909023761408555	CMakeFiles/pyatnashki.dir/main.cpp.o	def4c1f31f92438e
+2	1304	1662909023109406050	CMakeFiles/pyatnashki.dir/play_game.cpp.o	793452fecbbd0715
 2	2138	1662909023945409261	CMakeFiles/pyatnashki.dir/game_field.cpp.o	f47e25d1af8c1750
-1304	2521	1662909024329410737	CMakeFiles/pyatnashki.dir/check_winner.cpp.o	71255f9861bf5293
 2522	2630	1662909024437411153	pyatnashki	47732db15dc2c0fb
+9529	9537	1662907210195185577	lib/libgtest_main.a	c28b03ff7018ce2a
+1304	2521	1662909024329410737	CMakeFiles/pyatnashki.dir/check_winner.cpp.o	71255f9861bf5293
+1	2076	1663412411663139355	CMakeFiles/pyatnashki.dir/play_game.cpp.o	793452fecbbd0715
+1	2217	1663412411803144366	CMakeFiles/pyatnashki.dir/game_field.cpp.o	f47e25d1af8c1750
+1	2286	1663412411871146800	CMakeFiles/pyatnashki.dir/main.cpp.o	def4c1f31f92438e
+2076	3286	1663412412871182601	CMakeFiles/pyatnashki.dir/check_winner.cpp.o	71255f9861bf5293
+3286	3414	1663412412999187183	pyatnashki	47732db15dc2c0fb

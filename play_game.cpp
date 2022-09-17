@@ -9,19 +9,6 @@
  * @{
  */
 
-///\brief процесс игры
-/// \author Konstantsin
-/// \see void CreateField()
-/// \see void ShowField()
-/// \see void DeleteField()
-/// \see std::pair<int,int> points_of_empty
-/// \see std::vector<std::vector<Cell>> field
-/// \see int size_of_field
-/// \see int number
-/// \see std::pair<int,int> points
-/// \see char CheckInputChar()
-/// \see bool CheckWinnerSet()
-/// \see play_game.cpp
 void GameField::PlayProcess() {
 
     CreateField();
@@ -125,11 +112,6 @@ void GameField::PlayProcess() {
 
 }
 
-///\brief проверка на ввод для символов
-/// \return возвращает символ, которое необходимо проверить
-/// \author Konstantsin
-/// \throw exception при неправильном вводе
-/// \see play_game.cpp
 char GameField::CheckInputChar() {
 
     char symbol;
@@ -146,13 +128,7 @@ char GameField::CheckInputChar() {
 
 }
 
-/// \brief оператора индексирования,для просмотра элемента
-/// \param index принимает индекс вектора, который нужно вернуть
-/// \return вектор строк, который состоит из клеток поля
-/// \author Konstantsin
-/// \see std::vector<std::vector<Cell>> field
-/// \see play_game.cpp
-std::vector<GameField::Cell> GameField::operator[](int index) {
+std::vector<GameField::Cell> GameField::operator[](const int& index) {
 
     if(index<0 && index>size_of_field){
         throw std::exception();

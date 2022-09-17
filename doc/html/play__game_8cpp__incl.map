@@ -1,7 +1,8 @@
 <map id="play_game.cpp" name="play_game.cpp">
-<area shape="rect" id="node1" title="содержит сам игровой процесс" alt="" coords="72,5,193,32"/>
-<area shape="rect" id="node2" href="$game_8h.html" title="заголовочный файл содержит основной класс" alt="" coords="97,80,168,107"/>
+<area shape="rect" id="node1" title="содержит сам игровой процесс" alt="" coords="119,5,240,32"/>
+<area shape="rect" id="node2" href="$game_8h.html" title="заголовочный файл содержит основной класс" alt="" coords="144,80,215,107"/>
 <area shape="rect" id="node3" title=" " alt="" coords="5,155,68,181"/>
 <area shape="rect" id="node4" title=" " alt="" coords="93,155,173,181"/>
 <area shape="rect" id="node5" title=" " alt="" coords="197,155,255,181"/>
+<area shape="rect" id="node6" title=" " alt="" coords="279,155,383,181"/>
 </map>
